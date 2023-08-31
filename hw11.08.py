@@ -9,21 +9,22 @@
 
 
 
-# user_input = input("input password: ")
 # my_password = 'Sayonara'
+# max_attempts = 3
+# attempts = 0
 
-# while user_input != my_password:
-#     test = 0
+# while attempts < max_attempts:
+#     user_input = input("Input password: ")
+    
 #     if user_input == my_password:
 #         print("Welcome!")
-#     elif user_input!= my_password:
-#         test+=1
-#         print("incorrect, guess again")
-#     if test == 3:
-#         print("out of guesses")
-#         break 
+#         break
+#     else:
+#         attempts += 1
+#         print("Incorrect password. Please guess again.")
 
-
+# if attempts == max_attempts:
+#     print("Out of guesses. Access denied.")
 
 
 
